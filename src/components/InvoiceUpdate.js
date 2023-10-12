@@ -216,7 +216,7 @@ function InvoiceUpdate() {
   };
   const navigate = useNavigate();
   const clickHandler = () => {
-          navigate('/', {replace: true});
+          navigate('/InvoiceGeneratorApp', {replace: true});
     } 
   return (
     <Form onSubmit={openModal}>

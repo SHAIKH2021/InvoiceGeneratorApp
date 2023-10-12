@@ -5,7 +5,7 @@ import InvoiceList from "./InvoiceList";
 const HomePage = (props) => {
         const navigate = useNavigate();
         const clickHandler = () => {
-            navigate('/CreateInvoice', {replace: true});
+            navigate('/InvoiceGeneratorApp/CreateInvoice', {replace: true});
         }
         
       return (

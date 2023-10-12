@@ -12,12 +12,12 @@ import InvoiceUpdate from './components/InvoiceUpdate';
 
 const router = createBrowserRouter([
   {
-    path:'/',
+    path:'/InvoiceGeneratorApp',
     element:<App/>,
     children:[
-      {path:'' , element:<HomePage/>},
-      {path:'/CreateInvoice' , element:<InvoiceForm/>},
-      {path:'/UpdateInvoice' , element:<InvoiceUpdate/>},
+      {path:'/InvoiceGeneratorApp' , element:<HomePage/>},
+      {path:'/InvoiceGeneratorApp/CreateInvoice' , element:<InvoiceForm/>},
+      {path:'/InvoiceGeneratorApp/UpdateInvoice' , element:<InvoiceUpdate/>},
     ]
   }
 ])
